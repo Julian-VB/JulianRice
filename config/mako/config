@@ -1,0 +1,31 @@
+font=Cantarell 11
+format=<b>%a ⏵</b> %s\n%b
+sort=-time
+output=DP-2
+layer=overlay
+anchor=top-right
+background-color=#1d2021
+width=300
+height=110
+margin=5
+padding=0,5,10
+border-size=2
+border-color=#83a598
+border-radius=15
+icons=0
+max-icon-size=64
+default-timeout=5000
+ignore-timeout=1
+
+[urgency=normal]
+border-color=#cc241d
+
+[urgency=high]
+border-color=#b16286
+default-timeout=0
+
+[summary~="log-.*"]
+border-color=#689d6a
+
+[app-name=lightcord summary~="(.*(^| )orz|ORZ|sto|STO|otl|OTL( |$).*)"]
+invisible=1

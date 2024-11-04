@@ -1,0 +1,12 @@
+sway alacritty wofi waybar jetbrains-mono-nerd-font brightnessctl polkit-gnome swaylock-effects mako
+
+# To change the dark-themed wallpaper, replace dark.jpg in .config/sway/wallpapers/ with your own image; the image has to be named dark.jpg. 
+# For the light theme, repeat the same, except the file is is called light.jpg
+
+# To install, copy the files in .config/ to ~/.config/
+
+cp -r .config/* ~/.config/
+
+# Themes: Copy .themes/ directory to ~/.themes
+
+cp -r .themes ~/ # This will overwrite any existing directory
